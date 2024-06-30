@@ -1,7 +1,9 @@
 install:
 	python -m pip install --upgrade pip && \
 	python -m pip install -r requirements.txt
-
+install-azure:
+	python -m pip install --upgrade pip && \
+	python -m pip install -r requirements-azure.txt
 format:
 	black *.py
 
